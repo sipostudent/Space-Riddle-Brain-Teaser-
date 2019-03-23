@@ -4,32 +4,27 @@
 <div class="main">
     <h1>
         <!-- <div>Game Over</div> -->
-        <p>TOP 3 SCORER</p>
-
-        <table class="table table-borderless text-center">
+        <!-- <p>FINAL SCORE: {{ score }}</p> -->
+        <p class="topPlayers"># FINAL SCORE: {{ score }}</p>
+        <table class="table table-borderless">
             <thead>
                 <tr>
                     <th>#</th>
                     <th>Name</th>
                     <th>Score</th>
+                    <!-- <th>Medal</th> -->
                 </tr>
             </thead>
             <tbody>
+                {% for score in highscores %}
                 <tr>
-                    <th scope="row">1</th>
-                    <td>Sipo</td>
-                    <td>7</td>
+                    <th scope="row">{{ loop.index }}}</th>
+                    <td>{{ highscores[loop.index-1]["name"] }}</td>
+                    <td>{{ highscores[loop.index-1]["score"] }}</td>
+                    <!-- <td>Gold</td> -->
                 </tr>
-                <tr>
-                    <th scope="row">2</th>
-                    <td>Matt</td>
-                    <td>5</td>
-                </tr>
-                <tr>
-                    <th scope="row">3</th>
-                    <td>Anna</td>
-                    <td>3</td>
-                </tr>
+                {% endfor %}
+
             </tbody>
         </table>
     </h1>

@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="main">
+  <h1>
+    <!-- SPACE <i class="fas fa-user-astronaut fa-2x"></i> RIDDLE  -->
+    <br />
+    <span style="font-size:15px">
+      <section class="card-body">
+        <h4 class="card-title">
+          SPACE <i class="fas fa-user-astronaut fa-2x"></i> RIDDLE
+        </h4>
+        <p class="card-text">
+          A Brain-Teaser Game Designed To Help You Think Critically
+        </p>
+        <a class="btn btn-default btn-block" href="{{ url_for('enterName') }}"><i class="fas fa-play fa-2x"></i></a>
+      </section>
+    </span>
+  </h1>
+</div>
+
+{% endblock %}

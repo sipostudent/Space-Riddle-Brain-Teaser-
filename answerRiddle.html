@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/png" href="img/astronaut-favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Space Riddle</title>
+</head>
+
+<body data-spy="scroll" data-target="#main-nav" id="home">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="main-nav">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">SPACE <i class="fas fa-user-astronaut fa-2x"></i> RIDDLE</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a onClick="togglePlay()" class="nav-link"><i class="fas fa-volume-mute fa-2x"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="leaderboard.html" rel="noopener" class="nav-link"><i class="fas fa-list-ol fa-2x"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://github.com/sipostudent/Milestone-Project-3" target="_blank" rel="noopener"
+                            class="nav-link"><i class="far fa-file-code fa-2x"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://github.com/sipostudent" target="_blank" rel="noopener" class="nav-link"><i
+                                class="fab fa-github fa-2x"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://www.linkedin.com/in/sipo-cyrus-charles/" target="_blank" rel="noopener" class="nav-link"><i
+                                class="fab fa-linkedin-in fa-2x"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" target="_blank" rel="noopener" class="nav-link"><i class="fas fa-briefcase fa-2x"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section">
+        <h3>#1. <br> <br> IT WALKS ON FOUR LEGS IN THE MORNING, TWO LEGS AT NOON AND THREE LEGS IN THE EVENING. WHAT IS
+            IT?
+            <br><br>
+            <div id="play">
+                <form method="POST">
+                    <input type="text" class="form-control text-center" placeholder="Answer Here" name="answer" id="answer"
+                        required>
+                    <br> <br>
+                    <input type="hidden" name="riddle_index" id="riddle_index" value={{riddle_index}}>
+                    <input type="hidden" name="score" id="score" value={{score}}>
+                    <button type="submit" class="btn"><i class="fas fa-step-forward fa-2x"></i> <br> Step Forward</button>
+                </form>
+        </h3>
+
+        <div class="video-container">
+            <div class="color-overlay"></div>
+            <video autoplay loop muted>
+                <source src="video/Space.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+
+    <!-- <div class="sectionTwo text-center" style="height:463px;width:100%">
+        <p class="lead">A riddle based brain-teaser game designed to help you think critically. </p>
+        <p> <a class="btn"><i class="fas fa-play"></i><br>Press Start</a></p>
+    </div> -->
+
+    <!-- <div class="text-center" style="height:200px;width:100%">
+            <p>sdflksdjflkjsdfkjsdhfkjdsh kjsdhfkdsbf dskjfhkjdshfds sdhfkjdsh</p>
+            </div> -->
+
+    <!-- FOOTER -->
+    <!-- <footer id="main-footer" class="bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center py-4">
+                    <h3>LoopLAB</h3>
+                    <p class="text-center">
+                        Made with <i class="fas fa-heart"></i> by Sipo Charles
+                    </p>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Contact Us</button>
+                </div>
+            </div>
+        </div>
+    </footer> -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+    <script>
+        // Get the current year for the copyright
+        $('#year').text(new Date().getFullYear());
+
+        // Init Scrollspy
+        $('body').scrollspy({
+            target: '#main-nav'
+        });
+
+        // Smooth Scrolling
+        $("#main-nav a").on('click', function (event) {
+            if (this.hash !== "") {
+                event.preventDefault();
+
+                const hash = this.hash;
+
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function () {
+
+                    window.location.hash = hash;
+                });
+            }
+        });
+    </script>
+
+</body>
+
+</html>

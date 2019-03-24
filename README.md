@@ -37,12 +37,14 @@ Create a multi-player guessing game, suitable for website usage. The core focus 
 
 #### Functionality
 
-- A web application game that asks players to guess the answer to a text-based riddle. Riddles are generated and presented to players in the form of text.
-- Players enter their answer into a text field and submit using a form. If a player's guess is correct, they progress to the next riddle.
+- A web application game that requests that players surmise the response to a content-based riddle.
+- Riddles are generated and presented to players in the form of text.
+- Players enter their answer into a text field and submit using a form.
+- If a player's guess is correct, they progress to the next riddle.
 - If a player’s guess is incorrect, their incorrect solution is stored and printed below the riddle.
 - Player’s given two chances total at a guess, after which point the game will progress to the next riddle regardless of whether or not the player has guessed the riddle answer correctly.
 - The text area is reset to blank after every guess attempt so that players can guess again. Players are identified by a unique username which allows for multiple players to play an instance of the game at the same time.
-- Top scores for the top three players are ranked and added to a leader board.
+- Top scores for the main three players are positioned and added to a leader board.
 
 #### Initiation
 

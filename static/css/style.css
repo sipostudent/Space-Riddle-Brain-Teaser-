@@ -1,4 +1,8 @@
+/* FONT */
+
 @import url("https://fonts.googleapis.com/css?family=Saira");
+
+/* BODY STYLING */
 
 body {
   margin: 0;
@@ -10,18 +14,26 @@ body {
   letter-spacing: 0.50em;
 }
 
+
+/* NAVIGATION */
+
 .navbar {
-  /* border-bottom: #8b97c9 3px solid; */
   background-color: transparent !important;
-  /* opacity: 0.5; */
   text-shadow: 0 0 5px #8b97c9, 0 0 10px #8b97c9, 0 0 15px #8b97c9, 0 0 20px #1b213a, 0 0 30px #1b213a, 0 0 40px #1b213a, 0 0 55px #1b213a, 0 0 75px #8b97c9;
 }
 
-i {
-  color: #f6f7fb;
-}
 
-.navbar-brand {}
+/* VIDEO BACKGROUND */
+
+.color-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #1b213a;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.5;
+}
 
 #video-background {
   position: fixed;
@@ -34,22 +46,30 @@ i {
   z-index: -100;
 }
 
+
+/* GENERAL */
+
 h1 {
   position: absolute;
   bottom: 1%;
   left: 3%;
   width: 94%;
-  /* font-size: 55px; */
   letter-spacing: 10px;
   color: #f6f7fb;
   text-shadow: 0 0 5px #8b97c9, 0 0 10px #8b97c9, 0 0 15px #8b97c9, 0 0 20px #1b213a, 0 0 30px #1b213a, 0 0 40px #1b213a, 0 0 55px #1b213a, 0 0 75px #8b97c9;
-  /* opacity: 0.5; */
   text-align: center;
+}
+
+i {
+  color: #f6f7fb;
 }
 
 .infoFontsize {
   font-size: 15px;
 }
+
+
+/* LEADERBOARD */
 
 table {
   font-size: 15px;
@@ -59,13 +79,13 @@ table {
   font-size: 20px;
 }
 
+
+/* BUTTONS & FORM */
+
 .btn-default,
 .btn-block,
 .btn {
   border-radius: 60px;
-  /* -webkit-box-shadow: 0px 10px 13px -7px #020304,
-    5px 5px 15px 5px rgba(2, 3, 4, 1);
-  box-shadow: 0px 10px 13px -7px #020304, 5px 5px 15px 5px rgba(2, 3, 4, 1); */
   background-color: transparent !important;
   color: #f6f7fb !important;
   text-shadow: 0 0 5px #8b97c9, 0 0 10px #8b97c9, 0 0 15px #8b97c9, 0 0 20px #1b213a, 0 0 30px #1b213a, 0 0 40px #1b213a, 0 0 55px #1b213a, 0 0 75px #8b97c9;
@@ -73,18 +93,5 @@ table {
 
 .form-control {
   border-radius: 60px;
-  /* -webkit-box-shadow: 0px 10px 13px -7px #020304,
-    5px 5px 15px 5px rgba(2, 3, 4, 1);
-  box-shadow: 0px 10px 13px -7px #020304, 5px 5px 15px 5px rgba(2, 3, 4, 1); */
   background-color: transparent !important;
-}
-
-.color-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: #1b213a;
-  width: 100%;
-  height: 100vh;
-  opacity: 0.5;
 }

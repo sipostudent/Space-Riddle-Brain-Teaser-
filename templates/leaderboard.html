@@ -3,8 +3,6 @@
 
 <div class="main">
     <h1>
-        <!-- <div>Game Over</div> -->
-        <!-- <p>FINAL SCORE: {{ score }}</p> -->
         <p class="topPlayers"># FINAL SCORE: {{ score }}</p>
         <table class="table table-borderless">
             <thead>
@@ -12,7 +10,6 @@
                     <th>#</th>
                     <th>Name</th>
                     <th>Score</th>
-                    <!-- <th>Medal</th> -->
                 </tr>
             </thead>
             <tbody>
@@ -21,10 +18,8 @@
                     <th scope="row">{{ loop.index }}}</th>
                     <td>{{ highscores[loop.index-1]["name"] }}</td>
                     <td>{{ highscores[loop.index-1]["score"] }}</td>
-                    <!-- <td>Gold</td> -->
                 </tr>
                 {% endfor %}
-
             </tbody>
         </table>
     </h1>

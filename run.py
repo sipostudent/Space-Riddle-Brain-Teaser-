@@ -36,15 +36,15 @@ def leaderboard():
     return render_template("leaderboard.html", title="Leaderboard | Space Riddle", highscores=highscores)
 
 
-@app.route('/enterName', methods=["GET", "POST"])
-def enterName():
+@app.route('/entername', methods=["GET", "POST"])
+def entername():
     if request.method == "POST":
         username = request.form["username"]
         add_users(username)
 
         return redirect(username)
 
-    return render_template("enterName.html", title="User Registration | Space Riddle")
+    return render_template("entername.html", title="User Registration | Space Riddle")
 
 
 @app.route('/<username>', methods=["GET", "POST"])
@@ -105,7 +105,7 @@ def play(username):
 
             return render_template("leaderboard.html", title="Game Over", score=player_score, highscores=highscores)
 
-    return render_template("answerRiddle.html", title="Play Game | Space Riddle", username=username, riddles=riddles, riddle_index=riddle_index, score=player_score, incorrect=incorrect, userTry=user_Try)
+    return render_template("answerriddle.html", title="Play Game | Space Riddle", username=username, riddles=riddles, riddle_index=riddle_index, score=player_score, incorrect=incorrect, userTry=user_Try)
 
 
 if __name__ == '__main__':

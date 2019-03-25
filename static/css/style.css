@@ -11,7 +11,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   font-family: "Saira", sans-serif;
-  letter-spacing: 0.50em;
+  letter-spacing: 0.5em;
 }
 
 a.navbar-brand {
@@ -22,9 +22,10 @@ a.navbar-brand {
 
 .navbar {
   background-color: transparent !important;
-  text-shadow: 0 0 5px #8b97c9, 0 0 10px #8b97c9, 0 0 15px #8b97c9, 0 0 20px #1b213a, 0 0 30px #1b213a, 0 0 40px #1b213a, 0 0 55px #1b213a, 0 0 75px #8b97c9;
+  text-shadow: 0 0 5px #8b97c9, 0 0 10px #8b97c9, 0 0 15px #8b97c9,
+    0 0 20px #1b213a, 0 0 30px #1b213a, 0 0 40px #1b213a, 0 0 55px #1b213a,
+    0 0 75px #8b97c9;
 }
-
 
 /* VIDEO BACKGROUND */
 
@@ -49,8 +50,6 @@ a.navbar-brand {
   z-index: -100;
 }
 
-
-
 /* GENERAL */
 
 h1 {
@@ -59,7 +58,9 @@ h1 {
   width: 94%;
   letter-spacing: 10px;
   color: #f6f7fb;
-  text-shadow: 0 0 5px #8b97c9, 0 0 10px #8b97c9, 0 0 15px #8b97c9, 0 0 20px #1b213a, 0 0 30px #1b213a, 0 0 40px #1b213a, 0 0 55px #1b213a, 0 0 75px #8b97c9;
+  text-shadow: 0 0 5px #8b97c9, 0 0 10px #8b97c9, 0 0 15px #8b97c9,
+    0 0 20px #1b213a, 0 0 30px #1b213a, 0 0 40px #1b213a, 0 0 55px #1b213a,
+    0 0 75px #8b97c9;
   text-align: center;
 }
 
@@ -85,6 +86,9 @@ i {
   align-items: center;
 }
 
+/* .form-control {
+  color: yellow !important;
+} */
 
 /* LEADERBOARD */
 
@@ -96,7 +100,6 @@ table {
   font-size: 20px;
 }
 
-
 /* BUTTONS & FORM */
 
 .btn-default,
@@ -105,10 +108,13 @@ table {
   border-radius: 60px;
   background-color: transparent !important;
   color: #f6f7fb !important;
-  text-shadow: 0 0 5px #8b97c9, 0 0 10px #8b97c9, 0 0 15px #8b97c9, 0 0 20px #1b213a, 0 0 30px #1b213a, 0 0 40px #1b213a, 0 0 55px #1b213a, 0 0 75px #8b97c9;
+  text-shadow: 0 0 5px #8b97c9, 0 0 10px #8b97c9, 0 0 15px #8b97c9,
+    0 0 20px #1b213a, 0 0 30px #1b213a, 0 0 40px #1b213a, 0 0 55px #1b213a,
+    0 0 75px #8b97c9;
 }
 
 .form-control {
   border-radius: 60px;
   background-color: transparent !important;
+  color: #f6f7fb !important;
 }

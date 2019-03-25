@@ -106,7 +106,6 @@ Research to understand what apps of similar scope were already doing in terms of
 
 #### Other Resources
 
-- https://getbootstrap.com/
 - https://www.w3schools.com/
 - https://stackoverflow.com/
 - https://slack.com/

@@ -27,6 +27,7 @@
 - [Deployment](#Deployment)
 
   - [How the project got deployed to Heroku](#How-the-project-got-deployed-to-Heroku)
+  - [How to access the live application](#How-to-access-the-live-application)
   - [How to run things locally](#How-to-run-things-locally)
 
 - [Credits](#Credits)
@@ -159,7 +160,7 @@ Research to understand what apps of similar scope were already doing in terms of
 8. In the "Manual deploy" section, Choose relevant branch to deploy, then click "Deploy Branch."
 9. Select "Activity" tab and click on "View build log" to confirm notification of "Build succeeded and "Deployed" application.
 
-#### How to access the live application (app)
+#### How to access the live application
 
 - A live demonstration is accessable by clicking [here](https://space-riddle-game.herokuapp.com/ "Live Demonstration: Space Riddle - Guessing Game").
 

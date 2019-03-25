@@ -36,15 +36,15 @@ def leaderboard():
     return render_template("leaderboard.html", title="Leaderboard | Space Riddle", highscores=highscores)
 
 
-@app.route('/enterName', methods=["GET", "POST"])
-def enterName():
+@app.route('/enter_name', methods=["GET", "POST"])
+def enter_name():
     if request.method == "POST":
         username = request.form["username"]
         add_users(username)
 
         return redirect(username)
 
-    return render_template("enterName.html", title="User Registration | Space Riddle")
+    return render_template("enter_name.html", title="User Registration | Space Riddle")
 
 
 @app.route('/<username>', methods=["GET", "POST"])
@@ -54,17 +54,17 @@ def play(username):
     riddle_index = 0
     player_score = 0
     incorrect = ''
-    global user_Try
-    user_Try = 0
+    global user_try
+    user_try = 0
 
     if request.method == "POST":
         riddle_index = int(request.form["riddle_index"])
         player_score = int(request.form["score"])
         user_answer = request.form["answer"].lower()
 
-        user_Try = int(request.form["userTry"])
+        user_try = int(request.form["userTry"])
 
-        print("user try: " + str(user_Try))
+        print("user try: " + str(user_try))
 
         if user_answer in riddles[riddle_index]["answer"]:
 
@@ -72,17 +72,17 @@ def play(username):
             player_score += 1
             incorrect = ''
         else:
-            print("user try in else: " + str(user_Try))
-            print(type(user_Try))
+            print("user try in else: " + str(user_try))
+            print(type(user_try))
 
-            if(user_Try == 1):
-                user_Try -= 1
-                print("user try in other: " + str(user_Try))
+            if(user_try == 1):
+                user_try -= 1
+                print("user try in other: " + str(user_try))
                 riddle_index += 1
 
-            elif(user_Try == 0):
+            elif(user_try == 0):
                 incorrect = user_answer
-                user_Try += 1
+                user_try += 1
 
         if riddle_index > 5:
 
@@ -97,15 +97,15 @@ def play(username):
             highscores.append(result)
             highscores = sorted(
                 highscores, key=itemgetter('score'), reverse=True)
-            highscores = highscores[:-1]
-            print(highscores)
+            #highscores = highscores[:-1]
+            # print(highscores)
 
             with open("data/highscores.json", "w") as file:
                 json.dump(highscores, file)
 
             return render_template("leaderboard.html", title="Game Over", score=player_score, highscores=highscores)
 
-    return render_template("answerRiddle.html", title="Play Game | Space Riddle", username=username, riddles=riddles, riddle_index=riddle_index, score=player_score, incorrect=incorrect, userTry=user_Try)
+    return render_template("answer_riddle.html", title="Play Game | Space Riddle", username=username, riddles=riddles, riddle_index=riddle_index, score=player_score, incorrect=incorrect, userTry=user_try)
 
 
 if __name__ == '__main__':

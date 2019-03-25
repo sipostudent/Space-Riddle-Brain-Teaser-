@@ -68,7 +68,7 @@ i {
   color: #f6f7fb;
 }
 
-.infoFontsize {
+.info-fontsize {
   font-size: 1.4rem;
 }
 
@@ -96,7 +96,7 @@ table {
   font-size: 15px;
 }
 
-.topPlayers {
+.top-players {
   font-size: 20px;
 }
 
@@ -110,7 +110,7 @@ table {
   color: #f6f7fb !important;
   text-shadow: 0 0 5px #8b97c9, 0 0 10px #8b97c9, 0 0 15px #8b97c9,
     0 0 20px #1b213a, 0 0 30px #1b213a, 0 0 40px #1b213a, 0 0 55px #1b213a,
-    0 0 75px #8b97c9;
+    0 0 75px #8b97c9 !important;
 }
 
 .form-control {

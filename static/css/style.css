@@ -14,6 +14,9 @@ body {
   letter-spacing: 0.50em;
 }
 
+a.navbar-brand {
+  font-size: 1.8vmax;
+}
 
 /* NAVIGATION */
 
@@ -51,7 +54,7 @@ body {
 
 h1 {
   position: absolute;
-  bottom: 1%;
+  /* bottom: 1%; */
   left: 3%;
   width: 94%;
   letter-spacing: 10px;
@@ -65,7 +68,21 @@ i {
 }
 
 .infoFontsize {
-  font-size: 15px;
+  font-size: 1.4rem;
+}
+
+.main {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 

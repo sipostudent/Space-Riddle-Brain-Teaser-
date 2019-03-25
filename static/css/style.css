@@ -2,7 +2,7 @@
 
 @import url("https://fonts.googleapis.com/css?family=Saira");
 
-/* BODY STYLING */
+/* BODY STYLING **/
 
 body {
   margin: 0;
@@ -50,11 +50,11 @@ a.navbar-brand {
 }
 
 
+
 /* GENERAL */
 
 h1 {
   position: absolute;
-  /* bottom: 1%; */
   left: 3%;
   width: 94%;
   letter-spacing: 10px;

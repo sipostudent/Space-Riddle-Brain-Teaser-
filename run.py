@@ -66,18 +66,18 @@ def play(username):
 
         print("user try: " + str(user_try))
 
-        if user_answer in riddles[riddle_index]["answer"]:
+        if user_answer == riddles[riddle_index]["answer"]:
 
             riddle_index += 1
             player_score += 1
             incorrect = ''
         else:
-            print("user try in else: " + str(user_try))
+            print("user try == else: " + str(user_try))
             print(type(user_try))
 
             if(user_try == 1):
                 user_try -= 1
-                print("user try in other: " + str(user_try))
+                print("user try == other: " + str(user_try))
                 riddle_index += 1
 
             elif(user_try == 0):

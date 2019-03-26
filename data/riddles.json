@@ -1,6 +1,6 @@
 [{
     "riddle": "It walks on four legs in the morning, two legs at noon and three legs in the evening. What is it?",
-    "answer": "a man|a woman|a humanbeing"
+    "answer": "man"
   },
   {
     "riddle": "One word in this sentence is misspelled. What word is it?",
@@ -8,11 +8,11 @@
   },
   {
     "riddle": "What is more useful when it is broken?",
-    "answer": "an egg"
+    "answer": "egg"
   },
   {
     "riddle": "I never was, am always to be. No one ever saw me, nor ever will. And yet I am the confidence of all, To live and breath on this terrestrial ball. What am I?",
-    "answer": "the future"
+    "answer": "future"
   },
   {
     "riddle": "At night they come without being fetched. By day they are lost without being stolen. What are they?",
@@ -20,7 +20,7 @@
   },
   {
     "riddle": "You have three stoves: a gas stove, a wood stove, and a coal stove, but only one match. Which should you light first?",
-    "answer": "match!"
+    "answer": "match"
   },
   {
     "riddle": "The one who makes it, sells it. The one who buys it, never uses it. The one that uses it never knows that he\u2019s using it. What is it?",

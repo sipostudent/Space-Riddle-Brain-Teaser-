@@ -26,14 +26,14 @@ riddles = ""
 
 @app.route('/')
 def index():
-    return render_template("index.html", title="Home Page | Space Riddle")
+    return render_template("index.html", title="HOME | SPACE RIDDLE")
 
 
 @app.route('/leaderboard')
 def leaderboard():
     with open("data/highscores.json", "r") as json_data:
         highscores = json.load(json_data)
-    return render_template("leaderboard.html", title="Leaderboard | Space Riddle", highscores=highscores)
+    return render_template("leaderboard.html", title="RANK | SPACE RIDDLE", highscores=highscores)
 
 
 @app.route('/enter_name', methods=["GET", "POST"])
@@ -44,7 +44,7 @@ def enter_name():
 
         return redirect(username)
 
-    return render_template("enter_name.html", title="User Registration | Space Riddle")
+    return render_template("enter_name.html", title="REGISTER | SPACE RIDDLE")
 
 
 @app.route('/<username>', methods=["GET", "POST"])
@@ -97,15 +97,13 @@ def play(username):
             highscores.append(result)
             highscores = sorted(
                 highscores, key=itemgetter('score'), reverse=True)
-            #highscores = highscores[:-1]
-            # print(highscores)
 
             with open("data/highscores.json", "w") as file:
                 json.dump(highscores, file)
 
             return render_template("leaderboard.html", title="Game Over", score=player_score, highscores=highscores)
 
-    return render_template("answer_riddle.html", title="Play Game | Space Riddle", username=username, riddles=riddles, riddle_index=riddle_index, score=player_score, incorrect=incorrect, userTry=user_try)
+    return render_template("answer_riddle.html", title="PLAY | SPACE RIDDLE", username=username, riddles=riddles, riddle_index=riddle_index, score=player_score, incorrect=incorrect, userTry=user_try)
 
 
 if __name__ == '__main__':

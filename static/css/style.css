@@ -2,7 +2,7 @@
 
 @import url("https://fonts.googleapis.com/css?family=Saira");
 
-/* BODY STYLING **/
+/* BODY STYLING */
 
 body {
   margin: 0;
@@ -86,18 +86,10 @@ i {
   align-items: center;
 }
 
-/* .form-control {
-  color: yellow !important;
-} */
-
 /* LEADERBOARD */
 
 table {
   font-size: 15px;
-}
-
-.top-players {
-  font-size: 20px;
 }
 
 /* BUTTONS & FORM */

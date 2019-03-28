@@ -101,7 +101,7 @@ def play(username):
             with open("data/highscores.json", "w") as file:
                 json.dump(highscores, file)
 
-            return render_template("leaderboard.html", title="Game Over", score=player_score, highscores=highscores)
+            return render_template("leaderboard.html", title="GAME OVER", score=player_score, highscores=highscores)
 
     return render_template("answer_riddle.html", title="PLAY | SPACE RIDDLE", username=username, riddles=riddles, riddle_index=riddle_index, score=player_score, incorrect=incorrect, userTry=user_try)
 

@@ -197,3 +197,7 @@ $ git push heroku master
 #### Acknowledgements
 
 - I received inspiration for this project from visiting [miniclip.com](https://www.miniclip.com/games/en/ "Miniclip Official Site"), but mostly from my interaction with other students on Code Institute's Full Stack Software Development Programme.
+
+#### Disclaimer
+
+This is for educational purposes only.

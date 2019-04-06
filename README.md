@@ -68,47 +68,39 @@ Research to understand what apps of similar scope were already doing in terms of
 
 #### Languages Frameworks Tools
 
-- [HTML5](https://www.w3.org/TR/html5/ "HTML5 Official Site")
+- [HTML](https://www.w3.org/TR/html5/ "HTML5 Official Site")
 
   - Semantic markup language utilised as the shell of the site.
 
-- [CSS3](https://www.w3.org/Style/CSS/ "Cascading Style Sheets Official Site")
+- [CSS](https://www.w3.org/Style/CSS/ "Cascading Style Sheets Official Site")
 
   - Cascading Style Sheets as the design of the site.
+
+- [Python](www.python.org)
+
+  - Utilised to compose the gane logic.
 
 - [jQuery](http://jquery.com/ "Cascading Style Sheets Official Site")
 
   - HTML document traversal and manipulation, event handling.
 
-- [Bootstrap - v4.1.1](https://getbootstrap.com/docs/4.1/getting-started/introduction/ "Bootstrap Official Site")
+- [Bootstrap](https://getbootstrap.com/docs/4.1/getting-started/introduction/ "Bootstrap Official Site")
 
   - Utilised for developing the entire UI and consistent throughout
-
-- [Python 3.7.0](https://www.python.org/ "Python Official Site")
-
-  - Utilised to compose the game logic.
-
-- [GitHub](https://github.com/ "GitHub Official Site")
-
-  - Utilised for committing code.
-
-- [Heroku](https://www.heroku.com/ "Heroku Official Site")
-
-  - Utilised for deploying the project.
 
 - [Google Fonts](https://fonts.google.com/ "Google Fonts Official Site")
 
   - Saira font applied across the entire website
 
-- [Font Awesome - v5.0.13](https://fontawesome.com/ "Fontawesome Official Site")
+- [Font Awesome](https://fontawesome.com/ "Fontawesome Official Site")
 
   - Source for all utilised icons
 
 #### Other Resources
 
-- https://www.w3schools.com/
-- https://stackoverflow.com/
-- https://slack.com/
+- [w3schools](https://www.w3schools.com/)
+- [Stack Overflow](https://stackoverflow.com/)
+- [Slack](https://slack.com/)
 
 ## Features
 
@@ -149,15 +141,27 @@ Research to understand what apps of similar scope were already doing in terms of
 
 #### How the project got deployed to Heroku
 
-1. Select Extensions and install Heroku-cli
-2. In the terminal, type "Heroku" to initialise
-3. In the terminal type "Heroku login."
-4. Go to Heroku, select region, e.g. Europe, and then "Create New App."
-5. In "Deployment method" section, select "GitHub Connect to GitHub."
-6. In "Connect to GitHub" section, search for relevant project repository to connect to by pressing search and selecting or typing the repo name into "repo-name" field followed by pressing connect.
-7. In the "Automatic deploys" section, select "enable automatic deploys."
-8. In the "Manual deploy" section, Choose relevant branch to deploy, then click "Deploy Branch."
-9. Select "Activity" tab and click on "View build log" to confirm notification of "Build succeeded and "Deployed" application.
+- Select Extensions and install [Heroku-cli](https://devcenter.heroku.com/articles/heroku-cli)
+
+  - If you haven't already, log in to your Heroku account and follow the prompts to create a new SSH public key.
+
+\$ heroku login
+Clone the repository
+Use Git to clone space-riddle-game's source code to your local machine.
+
+```console
+$ heroku git:clone -a space-riddle-game
+$ cd space-riddle-game
+```
+
+Deploy your changes
+Make some changes to the code you just cloned and deploy them to Heroku using Git.
+
+```console
+$ git add .
+$ git commit -am "make it better"
+$ git push heroku master
+```
 
 #### How to access the live application
 

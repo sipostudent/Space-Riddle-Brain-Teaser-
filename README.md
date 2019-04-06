@@ -78,7 +78,15 @@ Research to understand what apps of similar scope were already doing in terms of
 
 - [Python](www.python.org)
 
-  - Utilised to compose the gane logic.
+  - Utilised to compose the game logic.
+
+- [Flask](http://flask.pocoo.org/)
+
+  - Utilised for routing through application, redirecting and rendering HTML templates.
+
+- [Jinja2](http://jinja.pocoo.org/docs/2.10/)
+
+  - Utilised to render html templates, imparting between front-end and back-end.
 
 - [jQuery](http://jquery.com/ "Cascading Style Sheets Official Site")
 
@@ -132,6 +140,8 @@ Research to understand what apps of similar scope were already doing in terms of
 - Audio sound/effects which would improve increase the user experience.
 
 - The alternative to come back to the game with a current player name. Without secure player confirmation, which is beyond the scope of this module, there is currently no way to separate between a returning player and a player who has picked the equivalent player name as another player. Subsequently, players must choose another player name each time they register.
+
+- Revealing the correct answers to the riddles at the end of the game would improve the user experience. However, this would work better with a relational database (RDB), which contained a multitude of different riddle question groups. Riddle data would be accessed and reassembled on an automatic and rotational basis on each initiation of the game, so to provide the user with extra variety after being made aware of the correct answers for a particular riddle batch on a previous game effort.
 
 ## Testing
 

@@ -33,6 +33,11 @@
 
 - [Testing](#Testing)
 
+  - [Tools-and-Methods-Used-for-Testing](#Tools-and-Methods-Used-for-Testing)
+  - [Additional-Points](#Additional-Points)
+  - [Tested Sections 1 HTML & CSS](#Tested-Sections-1-HTML-CSS)
+  - [Tested Sections 2 Python](#Tested-Sections-2-Python)
+
 - [Deployment](#Deployment)
 
   - [How the project got deployed to Heroku](#How-the-project-got-deployed-to-Heroku)
@@ -221,7 +226,85 @@ A placeholder image service provided by [Placeholder.com](https://placeholder.co
 
 ## Testing
 
-- (Pending)
+#### Tools and Methods Used for Testing
+
+- HTML
+
+  - [Freeformatter](https://www.freeformatter.com/)
+
+  - [The W3C Markup Validation Service](https://validator.w3.org/)
+
+- CSS
+
+  - [The W3C Markup Validation Service](https://jigsaw.w3.org/css-validator)
+
+- Python
+
+  - [Python Formatter](https://pythoniter.appspot.com/)
+
+#### Additional Points
+
+- Both virtual and real device tests were run to test and access the functionality of the app and identify any potential errors. Also, and although the app UI aesthetics are not a high priority requirement for this project, the app responsiveness was also tested by resizing the window with every addition of new code. Please see below a full list of devices used in the testing phase:
+
+- Phones
+
+  - Galaxy Note 3 (simulation and actual device)
+  - Galaxy Note 9
+  - Galaxy S5
+  - Galaxy S9/S9+
+  - iPhone 5/SE
+  - iPhone 6/7/8 (simulated and real device)
+  - iPhone 6/7/8 Plus
+  - iPhone X
+  - LG Optimus L70
+  - Microsoft Lumia 550
+  - Microsoft Lumia 950
+  - Nexus 5X
+  - Nexus 6P
+  - Nokia 8110 4G
+  - Pixel 2
+  - Pixel 2 XL
+
+- Tablets
+  - iPad (simulation and actual device)
+  - iPad Mini
+  - iPad Pro (10.5-inch)
+  - iPad Pro (12.9-inch) (simulated and real device)
+  - Kindle Fire HDX
+  - Nexus 10
+  - Nexus 7
+
+* Laptops
+
+  - MacBook Pro (simulated and real device)
+  - Asus UX 305 (simulation and actual device)
+
+* Televisions
+  - 1080p Full HD Television (simulated and real device)
+
+- Website responsiveness was also tested by resizing the window with every addition of a new code sequence.
+
+#### Tested Sections 1 HTML & CSS
+
+- External links to third party websites and code authors GitHub repository.
+
+- Checked button sizes so, they were responsive and large enough to be clicked.
+
+- Ensured individual section headers resized and appeared well when viewed on various device screens and added opacity to the navigation bar to allow for more visibility of section header area on smaller devices.
+
+- Spell checked all text content.
+
+- HTML and CSS validation via [w3.org](https://www.w3.org/ "W3C Official Site").
+
+- Checked margins and padding of the container (sections) to ensure the content within it did not look disproportionate on various screen sizes, individually smaller devices.
+
+#### Tested Sections 2 Python
+
+Manual testing was embraced for this application and acceptably passed. An example of the tests directed are as per the following:
+
+- Tested route catches and hyperlinks all through the page.
+- Tested the rationale of the application by looking at expected conduct against the JSON record information.
+- Tested the responsiveness of the application on various programs and after that utilising multiple gadgets.
 
 ## Deployment
 

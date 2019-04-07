@@ -12,6 +12,15 @@
 
 - [UX](#UX)
 
+  - [Layout Pro (Boundless Adaptability)](#Layout-Pro-Boundless-Adaptability)
+  - [Layout Con (Moderate Speed and Execution)](#Layout-Con-Moderate-Speed-and-Execution)
+  - [Tablet Display](#Tablet-Display)
+  - [Mobile Display](#Mobile-Display)
+  - [Additional Note](#Additional-Note)
+  - [Colour Scheme](#Colour-Scheme)
+  - [Font](#Font)
+  - [Navigation](#Navigation)
+
 - [Technologies](#Technologies)
 
   - [Languages Frameworks Tools](#Languages-Frameworks-Tools)
@@ -62,7 +71,74 @@ Research to understand what apps of similar scope were already doing in terms of
 
 ## UX
 
-- (Pending)
+#### Layout Pro (Boundless Adaptability)
+
+- Choosing a multiple page application (MPA) takes into consideration the choice to make new content and spot it on new pages. Multi-page applications can incorporate as much data as required, for this situation, numerous riddles, name enrolment page and a score board rank, with no page confinements.
+  To say it essentially, in light of the fact that there is a fair amount of content and features included on the application, I feel that a MPA is the best decision.
+
+#### Layout Con (Moderate Speed and Execution)
+
+- Being as this is a multi-page application, a server needs to reload most assets, for example, HTML, CSS, and Python with each interaction. When loading another page, the browser completely reloads page information and downloads all assets once more, even segments that are rehashed throughout all pages (for example the header/navigation). This influences Speed and Execution.
+
+#### Tablet Display
+
+- Please note, except a slight difference in page/scale responsiveness, desktop applies the same UI.
+
+<img src="static/images/Tablet-Space-Riddle.gif" width="300">
+
+#### Mobile Display
+
+- This image animation represents the standard UI across most modern mobile devices.
+
+<img src="static/images/Mobile-Space-Riddle.gif" width="300">
+
+#### Additional Note
+
+- Games generally require the users to interact consistently; thus, although the game spreads across multiple separate pages, the developed app is in a way that keeps interaction on the included individual pages dense.
+
+#### Colour Scheme
+
+- The generation of a bespoke colour was accomplished by blending RGB and Hex colours to those of a video background via the use of HTML & CSS.
+
+  - ![#1b213a](https://placehold.it/15/1b213a/000000?text=+) `#1b213a` color description : Very dark desaturated blue.
+
+    - text-shadow
+    - background
+    - background-color
+
+  - ![#8b97c9](https://placehold.it/15/8b97c9/000000?text=+) `#8b97c9` color description : Slightly desaturated blue.
+
+    - text-shadow
+
+  - ![#f6f7fb](https://placehold.it/15/f6f7fb/000000?text=+) `#f6f7fb` color description : Light grayish blue.
+
+    - color
+
+A colour encyclopedia provided by [ColorHexa](https://www.colorhexa.com/ "ColorHexa Official Site") was used to generate matching colour palettes.
+
+A placeholder image service provided by [Placeholder.com](https://placeholder.com/#How_To_Use_Our_Placeholders "Placeholder.com Official Site") was used to provide a list of colours for reference in the README file.
+
+- Opacity/Transparency – property to add transparency to the background of an element.
+
+  - Navigation-bar
+
+- Text-shadow CSS – property to add shadow effects to text.
+
+  - Navigation-bar
+
+- Colour-overlay – a large background image overlayed with a translucent color and text.
+
+  - Body
+
+#### Font
+
+- Being as the website modelling is off a space theme a square geometric sans-serif typeface choice was selected; thus, helping to emphasise a futuristic and sci-fi vibe to the displayed text content; a subjective opinion, of course.
+
+#### Navigation
+
+- Fixed navigation makes it easier for users to browse the website and increase retention: In some ways, it's a passive call to action; always visible, always available.
+
+- Maintaining the logo visible increases brand value. Today there is an enormous number of apps, many with identical or similar features, so I feel that it’s vital to make a good impact on users and retain their interest, which can be all linked to a good brand image.
 
 ## Technologies
 

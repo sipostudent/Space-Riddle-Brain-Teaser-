@@ -319,13 +319,13 @@ Manual testing was embraced for this application and acceptably passed. An examp
 
 #### How the project got deployed to Heroku
 
-- Select Extensions and install [Heroku-cli](https://devcenter.heroku.com/articles/heroku-cli) :satellite:
+1. Go to Heroku Website
+2. Select Application (YOURAPPNAME)
+3. In the ‘Deployment Method’ section, check to see if the application already connected to GitHub. If not connected then click the relevant button to link the Heroku website to the dashboard.
+4. In the ‘Automatic Deployment’ section enable ‘Automatic Deploys’ (optional).
+5. In the ‘Manual Deploy’ section, set the branch to ‘master’ then click ‘Deploy Branch.’ :satellite:
 
-  - If you haven't already, log in to your Heroku account and follow the prompts to create a new SSH public key.
-
-\$ heroku login
-Clone the repository
-Use Git to clone space-riddle-game's source code to your local machine.
+#### How to clone the application
 
 ```console
 $ heroku git:clone -a space-riddle-game

@@ -100,7 +100,7 @@ Research to understand what apps of similar scope were already doing in terms of
 
 #### Additional Note
 
-- Games generally require the users to interact consistently; thus, although the game spreads across multiple separate pages, the developed app is in a way that keeps interaction on the included individual pages dense. :pencil2:
+- Games generally require the users to interact consistently; thus, although the game spreads across multiple separate pages, the developed app is in a way that keeps interaction on the included individual pages dense. :triangular_ruler:
 
 #### Colour Scheme
 
@@ -110,7 +110,7 @@ Research to understand what apps of similar scope were already doing in terms of
 
     - text-shadow
     - background
-    - background-color :pencil2:
+    - background-color :straight_ruler:
 
   - ![#8b97c9](https://placehold.it/15/8b97c9/000000?text=+) `#8b97c9` color description : Slightly desaturated blue.
 
@@ -134,11 +134,11 @@ A placeholder image service provided by [Placeholder.com](https://placeholder.co
 
 - Colour-overlay – a large background image overlayed with translucent color and text.
 
-  - Body :pencil2:
+  - Body
 
 #### Font
 
-- Being as the website modelling is off a space theme, a square geometric sans-serif typeface choice was selected; thus, helping to emphasise a futuristic and sci-fi vibe to the displayed text content; a subjective opinion, of course. :pencil2:
+- Being as the website modelling is off a space theme, a square geometric sans-serif typeface choice was selected; thus, helping to emphasise a futuristic and sci-fi vibe to the displayed text content; a subjective opinion, of course.
 
 #### Navigation
 
@@ -356,7 +356,7 @@ $ git push heroku master
 'PORT', '5000'
 ```
 
-3. Install all of the prerequisites shown in the requirements.txt file via opening a Command-line interface (CLI) and navigating to the project root or by opening an integrated terminal and entering the following command: :computer:
+3. Install all of the prerequisites shown in the requirements.txt file via opening a Command-line interface (CLI) and navigating to the project root or by opening an integrated terminal and entering the following command:
 
 ```console
 pip install -r requirements.txt
@@ -368,7 +368,7 @@ pip install -r requirements.txt
 python run.py
 ```
 
-5. A message in your terminal will inform you that the project is now running with the following message: :computer:
+5. A message in your terminal will inform you that the project is now running with the following message:
 
 ```console
 Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)

@@ -1,4 +1,4 @@
-# SPACE RIDDLE - Guessing Game
+# SPACE RIDDLE - Guessing Game :space_invader: :rocket:
 
 ## Table of Contents
 
@@ -7,7 +7,7 @@
 - [About](#About)
 
   - [Goal](#Goal)
-  - [Functionality](#Functionality)
+  - [Functionality (User Stories)](#Functionality-User-Stories)
   - [Initiation](#Initiation)
 
 - [UX](#UX)
@@ -53,13 +53,13 @@
 
 ## About
 
-This application (app) is a game that asks players to guess the answer to a text-based riddle.
+This application (app) is a game that asks players to guess the answer to a **text-based riddle**.
 
 #### Goal
 
-Create a multi-player guessing game, suitable for website usage. The core focus of this project is on functional game logic created with Python while utilising the Flask micro web framework also written in Python.
+Create a multi-player guessing game, suitable for website usage. The core focus of this project is on functional game logic created with **Python** while utilising the **Flask** micro web framework also written in **Python**.
 
-#### Functionality
+#### Functionality (User Stories)
 
 - A web application game that requests that players surmise the response to a content-based riddle.
 - Riddles are generated and presented to players in the form of text.
@@ -74,15 +74,17 @@ Create a multi-player guessing game, suitable for website usage. The core focus 
 
 Research to understand what apps of similar scope were already doing in terms of functionality which provided me with a list of what I consider to be feasible options for functionality implementations to acknowledge and consider pre-production.
 
+[**To top**](#Table-of-Contents)
+
 ## UX
 
 #### Layout Pro (Boundless Adaptability)
 
-- Choosing a multiple page application (MPA) takes into consideration the choice to make new content and spot it on new pages. Multi-page applications can incorporate as much data as required, for this situation, numerous riddles, name enrolment page and a scoreboard rank, with no page confinements. To say it necessarily, because there is a fair amount of content and features included on the application, I feel that an MPA is the best decision.
+- Choosing a **multiple page application (MPA)** takes into consideration the choice to make new content and spot it on new pages. Multi-page applications can incorporate as much data as required, for this situation, numerous riddles, name enrolment page and a scoreboard rank, with no page confinements. To say it necessarily, because there is a fair amount of content and features included on the application, I feel that an **MPA** is the best decision.
 
 #### Layout Con (Moderate Speed and Execution)
 
-- Being as this is a multi-page application, a server needs to reload most assets, for example, HTML, CSS, and Python with each interaction. When loading another page, the browser completely reloads page information and downloads all assets once more, even rehashed segments throughout all pages (for example the header/navigation) which influences Speed and Execution.
+- Being as this is a multi-page application, a server needs to reload most assets, for example, HTML, CSS, and **Python** with each interaction. When loading another page, the browser completely reloads page information and downloads all assets once more, even rehashed segments throughout all pages (for example the header/navigation) which influences Speed and Execution.
 
 #### Tablet Display
 
@@ -144,6 +146,8 @@ A placeholder image service provided by [Placeholder.com](https://placeholder.co
 
 - Maintaining the logo visible increases brand value. Today there is an enormous number of apps, many with identical or similar features, so I feel that it’s vital to make a good impact on users and retain their interest, which can be all linked to a good brand image.
 
+[**To top**](#Table-of-Contents)
+
 ## Technologies
 
 #### Languages Frameworks Tools
@@ -189,6 +193,8 @@ A placeholder image service provided by [Placeholder.com](https://placeholder.co
 - [w3schools](https://www.w3schools.com/)
 - [Stack Overflow](https://stackoverflow.com/)
 - [Slack](https://slack.com/)
+
+[**To top**](#Table-of-Contents)
 
 ## Features
 
@@ -305,6 +311,8 @@ Manual testing was embraced for this application and acceptably passed. An examp
 - Tested the rationale of the application by looking at expected conduct against the JSON record information.
 - Tested the responsiveness of the application on various programs and after that utilising multiple gadgets.
 
+[**To top**](#Table-of-Contents)
+
 ## Deployment
 
 #### How the project got deployed to Heroku
@@ -322,7 +330,7 @@ $ heroku git:clone -a space-riddle-game
 $ cd space-riddle-game
 ```
 
-Deploy your changes, make some changes to the code you just cloned and deploy them to Heroku using Git.
+Deploy your changes, make some changes to the code you just cloned and deploy them to Heroku using Git. :octocat:
 
 ```console
 $ git add .
@@ -366,22 +374,26 @@ python run.py
 Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 ```
 
-6. To display the project, open the above URL (localhost:5000)
+6. To display the project, open the above URL (localhost:5000) :computer:
+
+[**To top**](#Table-of-Contents)
 
 ## Credits
 
 #### Content
 
-- Except for the app (game) riddles, all written content is bespoke and created by the code author (Sipo Charles).
+- Except for the app (game) riddles, all written content is bespoke and created by the code author (Sipo Charles). :pencil:
 
 #### Media
 
-- N/A
+- The source of all riddles utilised in the application is [riddles.com](https://www.riddles.com/). :secret:
 
 #### Acknowledgements
 
-- I received inspiration for this project from visiting [miniclip.com](https://www.miniclip.com/games/en/ "Miniclip Official Site"), but mostly from my interaction with other students on Code Institute's Full Stack Software Development Programme.
+- I received inspiration for this project from visiting [miniclip.com](https://www.miniclip.com/games/en/), but mostly from my interaction with other students on Code Institute's Full Stack Software Development Programme. :raised_hands:
 
 #### Disclaimer
 
-This project is for educational purposes only.
+This project is for educational purposes only. :mortar_board:
+
+[**To top**](#Table-of-Contents)

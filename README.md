@@ -41,6 +41,7 @@
 - [Deployment](#Deployment)
 
   - [How the project got deployed to Heroku](#How-the-project-got-deployed-to-Heroku)
+  - [Cloning the repository](#Cloning-the-repository)
   - [How to access the live application](#How-to-access-the-live-application)
   - [How to run things locally](#How-to-run-things-locally)
 

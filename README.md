@@ -1,4 +1,4 @@
-# SPACE RIDDLE - Guessing Game :space_invader: :rocket:
+# SPACE RIDDLE - Guessing Game :space_invader: :rocket: :milky_way: :alien:
 
 ## Table of Contents
 
@@ -53,7 +53,7 @@
 
 ## About
 
-This application (app) is a game that asks players to guess the answer to a **text-based riddle**.
+This application (app) is a game that asks players to guess the answer to a **text-based riddle**. :secret:
 
 #### Goal
 
@@ -68,11 +68,11 @@ Create a multi-player guessing game, suitable for website usage. The core focus 
 - If a player’s guess is incorrect, their incorrect solution is stored and printed below the riddle.
 - Player’s given two chances total at a guess, after which point the game will progress to the next riddle regardless of whether or not the player has guessed the riddle answer correctly.
 - The text area is reset to blank after every guess attempt so that players can guess again. Players are identified by a unique username which allows for multiple players to play an instance of the game at the same time.
-- Top scores for the main three players are positioned and added to a leader board.
+- Top scores for the main three players are positioned and added to a leader board. :notebook_with_decorative_cover:
 
 #### Initiation
 
-Research to understand what apps of similar scope were already doing in terms of functionality which provided me with a list of what I consider to be feasible options for functionality implementations to acknowledge and consider pre-production.
+Research to understand what apps of similar scope were already doing in terms of functionality which provided me with a list of what I consider to be feasible options for functionality implementations to acknowledge and consider pre-production. :rocket:
 
 [**To top**](#Table-of-Contents)
 
@@ -110,7 +110,7 @@ Research to understand what apps of similar scope were already doing in terms of
 
     - text-shadow
     - background
-    - background-color
+    - background-color :pencil2:
 
   - ![#8b97c9](https://placehold.it/15/8b97c9/000000?text=+) `#8b97c9` color description : Slightly desaturated blue.
 
@@ -122,7 +122,7 @@ Research to understand what apps of similar scope were already doing in terms of
 
 A colour encyclopedia provided by [ColorHexa](https://www.colorhexa.com/ "ColorHexa Official Site") was used to generate matching colour palettes.
 
-A placeholder image service provided by [Placeholder.com](https://placeholder.com/#How_To_Use_Our_Placeholders "Placeholder.com Official Site") was used to provide a list of colours for reference in the README file.
+A placeholder image service provided by [Placeholder.com](https://placeholder.com/#How_To_Use_Our_Placeholders "Placeholder.com Official Site") was used to provide a list of colours for reference in the README file. :pencil2:
 
 - Opacity/Transparency – this property adds transparency to the background of an element.
 
@@ -162,7 +162,7 @@ A placeholder image service provided by [Placeholder.com](https://placeholder.co
 
 - [Python](www.python.org)
 
-  - I have utilised to compose the game logic.
+  - I have utilised to compose the game logic. :hammer:
 
 - [Flask](http://flask.pocoo.org/)
 
@@ -174,7 +174,7 @@ A placeholder image service provided by [Placeholder.com](https://placeholder.co
 
 - [jQuery](http://jquery.com/ "Cascading Style Sheets Official Site")
 
-  - HTML document traversal and manipulation, event handling.
+  - HTML document traversal and manipulation, event handling. :nut_and_bolt:
 
 - [Bootstrap](https://getbootstrap.com/docs/4.1/getting-started/introduction/ "Bootstrap Official Site")
 
@@ -217,7 +217,7 @@ A placeholder image service provided by [Placeholder.com](https://placeholder.co
   - Inform a player of their current score, when errors are made in answer guessing and displaying player's the final score.
 
 - Form
-  - Enter player responses to the riddles.
+  - Enter player responses to the riddles. :nut_and_bolt:
 
 #### Features Left to Implement
 
@@ -227,7 +227,7 @@ A placeholder image service provided by [Placeholder.com](https://placeholder.co
 
 - The alternative to come back to the game with a current player name. Without secure player confirmation, which is beyond the scope of this module, there is currently no way to separate between a returning player and a player who has picked the equivalent player name as another player. Subsequently, players must choose another player name each time they register.
 
-- Revealing the correct answers to the riddles at the end of the game would improve the user experience. However, this would work better with a relational database (RDB), which contained a multitude of different riddle question groups. Riddle data would be accessed and reassembled on an automatic and rotational basis on each initiation of the game, so to provide the user with extra variety after being made aware of the correct answers for a particular riddle batch on a previous game effort.
+- Revealing the correct answers to the riddles at the end of the game would improve the user experience. However, this would work better with a relational database (RDB), which contained a multitude of different riddle question groups. Riddle data would be accessed and reassembled on an automatic and rotational basis on each initiation of the game, so to provide the user with extra variety after being made aware of the correct answers for a particular riddle batch on a previous game effort. :construction:
 
 ## Testing
 
@@ -245,11 +245,11 @@ A placeholder image service provided by [Placeholder.com](https://placeholder.co
 
 - Python
 
-  - [Python Formatter](https://pythoniter.appspot.com/)
+  - [Python Formatter](https://pythoniter.appspot.com/) :nut_and_bolt:
 
 #### Additional Points
 
-- Both virtual and real device tests were run to test and access the functionality of the app and identify any potential errors. Also, and although the app UI aesthetics are not a high priority requirement for this project, the app responsiveness was also tested by resizing the window with every addition of new code. Please see below a full list of devices used in the testing phase:
+- Both virtual and real device tests were run to test and access the functionality of the app and identify any potential errors. Also, and although the app UI aesthetics are not a high priority requirement for this project, the app responsiveness was also tested by resizing the window with every addition of new code. Please see below a full list of devices used in the testing phase: :white_check_mark:
 
 - Phones
 
@@ -287,7 +287,7 @@ A placeholder image service provided by [Placeholder.com](https://placeholder.co
 * Televisions
   - 1080p Full HD Television (simulated and real device)
 
-- Website responsiveness was also tested by resizing the window with every addition of a new code sequence.
+- Website responsiveness was also tested by resizing the window with every addition of a new code sequence. :white_check_mark:
 
 #### Tested Sections 1 HTML & CSS
 
@@ -301,7 +301,7 @@ A placeholder image service provided by [Placeholder.com](https://placeholder.co
 
 - HTML and CSS validation via [w3.org](https://www.w3.org/ "W3C Official Site").
 
-- Checked margins and padding of the container (sections) to ensure the content within it did not look disproportionate on various screen sizes, individually smaller devices.
+- Checked margins and padding of the container (sections) to ensure the content within it did not look disproportionate on various screen sizes, individually smaller devices. :white_check_mark:
 
 #### Tested Sections 2 Python
 
@@ -309,7 +309,7 @@ Manual testing was embraced for this application and acceptably passed. An examp
 
 - Tested route catches and hyperlinks all through the page.
 - Tested the rationale of the application by looking at expected conduct against the JSON record information.
-- Tested the responsiveness of the application on various programs and after that utilising multiple gadgets.
+- Tested the responsiveness of the application on various programs and after that utilising multiple gadgets. :white_check_mark:
 
 [**To top**](#Table-of-Contents)
 
@@ -317,7 +317,7 @@ Manual testing was embraced for this application and acceptably passed. An examp
 
 #### How the project got deployed to Heroku
 
-- Select Extensions and install [Heroku-cli](https://devcenter.heroku.com/articles/heroku-cli)
+- Select Extensions and install [Heroku-cli](https://devcenter.heroku.com/articles/heroku-cli) :satellite:
 
   - If you haven't already, log in to your Heroku account and follow the prompts to create a new SSH public key.
 
@@ -340,7 +340,7 @@ $ git push heroku master
 
 #### How to access the live application
 
-- A live demonstration is accessible by clicking [here](https://space-riddle-game.herokuapp.com/ "Live Demonstration: Space Riddle - Guessing Game").
+- A live demonstration is accessible by clicking [here](https://space-riddle-game.herokuapp.com/ "Live Demonstration: Space Riddle - Guessing Game"). :video_game:
 
 #### How to run things locally
 

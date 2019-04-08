@@ -78,12 +78,11 @@ Research to understand what apps of similar scope were already doing in terms of
 
 #### Layout Pro (Boundless Adaptability)
 
-- Choosing a multiple page application (MPA) takes into consideration the choice to make new content and spot it on new pages. Multi-page applications can incorporate as much data as required, for this situation, numerous riddles, name enrolment page and a score board rank, with no page confinements.
-  To say it essentially, in light of the fact that there is a fair amount of content and features included on the application, I feel that a MPA is the best decision.
+- Choosing a multiple page application (MPA) takes into consideration the choice to make new content and spot it on new pages. Multi-page applications can incorporate as much data as required, for this situation, numerous riddles, name enrolment page and a scoreboard rank, with no page confinements. To say it necessarily, because there is a fair amount of content and features included on the application, I feel that an MPA is the best decision.
 
 #### Layout Con (Moderate Speed and Execution)
 
-- Being as this is a multi-page application, a server needs to reload most assets, for example, HTML, CSS, and Python with each interaction. When loading another page, the browser completely reloads page information and downloads all assets once more, even segments that are rehashed throughout all pages (for example the header/navigation). This influences Speed and Execution.
+- Being as this is a multi-page application, a server needs to reload most assets, for example, HTML, CSS, and Python with each interaction. When loading another page, the browser completely reloads page information and downloads all assets once more, even rehashed segments throughout all pages (for example the header/navigation) which influences Speed and Execution.
 
 #### Tablet Display
 
@@ -123,7 +122,7 @@ A colour encyclopedia provided by [ColorHexa](https://www.colorhexa.com/ "ColorH
 
 A placeholder image service provided by [Placeholder.com](https://placeholder.com/#How_To_Use_Our_Placeholders "Placeholder.com Official Site") was used to provide a list of colours for reference in the README file.
 
-- Opacity/Transparency – property to add transparency to the background of an element.
+- Opacity/Transparency – this property adds transparency to the background of an element.
 
   - Navigation-bar
 
@@ -131,13 +130,13 @@ A placeholder image service provided by [Placeholder.com](https://placeholder.co
 
   - Navigation-bar
 
-- Colour-overlay – a large background image overlayed with a translucent color and text.
+- Colour-overlay – a large background image overlayed with translucent color and text.
 
   - Body
 
 #### Font
 
-- Being as the website modelling is off a space theme a square geometric sans-serif typeface choice was selected; thus, helping to emphasise a futuristic and sci-fi vibe to the displayed text content; a subjective opinion, of course.
+- Being as the website modelling is off a space theme, a square geometric sans-serif typeface choice was selected; thus, helping to emphasise a futuristic and sci-fi vibe to the displayed text content; a subjective opinion, of course.
 
 #### Navigation
 
@@ -155,19 +154,19 @@ A placeholder image service provided by [Placeholder.com](https://placeholder.co
 
 - [CSS](https://www.w3.org/Style/CSS/ "Cascading Style Sheets Official Site")
 
-  - Cascading Style Sheets as the design of the site.
+  - It is Cascading Style Sheets as the design of the site.
 
 - [Python](www.python.org)
 
-  - Utilised to compose the game logic.
+  - I have utilised to compose the game logic.
 
 - [Flask](http://flask.pocoo.org/)
 
-  - Utilised for routing through application, redirecting and rendering HTML templates.
+  - I have utilised for routing through the application, redirecting and rendering HTML templates.
 
 - [Jinja2](http://jinja.pocoo.org/docs/2.10/)
 
-  - Utilised to render html templates, imparting between front-end and back-end.
+  - Utilised to render HTML templates, imparting between front-end and back-end.
 
 - [jQuery](http://jquery.com/ "Cascading Style Sheets Official Site")
 
@@ -197,11 +196,11 @@ A placeholder image service provided by [Placeholder.com](https://placeholder.co
 
 - Home Page
 
-  - Used to access the user registration page field.
+  - It is used to access the user registration page field.
 
 - User Registration
 
-  - Utilised to enter player name and progress to game start.
+  - I have utilised to enter player name and progress to game start.
 
 - JSON
 
@@ -323,8 +322,7 @@ $ heroku git:clone -a space-riddle-game
 $ cd space-riddle-game
 ```
 
-Deploy your changes
-Make some changes to the code you just cloned and deploy them to Heroku using Git.
+Deploy your changes, make some changes to the code you just cloned and deploy them to Heroku using Git.
 
 ```console
 $ git add .
@@ -334,14 +332,41 @@ $ git push heroku master
 
 #### How to access the live application
 
-- A live demonstration is accessable by clicking [here](https://space-riddle-game.herokuapp.com/ "Live Demonstration: Space Riddle - Guessing Game").
+- A live demonstration is accessible by clicking [here](https://space-riddle-game.herokuapp.com/ "Live Demonstration: Space Riddle - Guessing Game").
 
 #### How to run things locally
 
 1. Download the project onto a PC and open with a source-code editor.
-2. In the run.py file set the IP address to 127.0.0.1 and the PORT to 5000.
-3. Install all of the prerequisites shown in the requirements.txt file.
-4. Initiate the app by entering the following command into a relevant terminal: python run.py
+
+2. In the run.py file set the IP address and the PORT to the following:
+
+```console
+'IP', '127.0.0.1'
+```
+
+```console
+'PORT', '5000'
+```
+
+3. Install all of the prerequisites shown in the requirements.txt file via opening a Command-line interface (CLI) and navigating to the project root or by opening an integrated terminal and entering the following command:
+
+```console
+pip install -r requirements.txt
+```
+
+4. Initiate the app by entering the following command into a relevant terminal:
+
+```console
+python run.py
+```
+
+5. A message in your terminal will inform you that the project is now running with the following message:
+
+```console
+Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+```
+
+6. To display the project, open the above URL (localhost:5000)
 
 ## Credits
 
@@ -359,4 +384,4 @@ $ git push heroku master
 
 #### Disclaimer
 
-This is for educational purposes only.
+This project is for educational purposes only.

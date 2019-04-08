@@ -362,7 +362,7 @@ $ git push heroku master
 pip install -r requirements.txt
 ```
 
-4. Initiate the app by entering the following command into a relevant terminal: :computer:
+4. Initiate the app by entering the following command into a relevant terminal:
 
 ```console
 python run.py
@@ -374,7 +374,7 @@ python run.py
 Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 ```
 
-6. To display the project, open the above URL (localhost:5000) :computer:
+6. To display the project, open the above URL (localhost:5000)
 
 [**To top**](#Table-of-Contents)
 

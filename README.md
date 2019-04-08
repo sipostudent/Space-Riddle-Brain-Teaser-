@@ -80,27 +80,27 @@ Research to understand what apps of similar scope were already doing in terms of
 
 #### Layout Pro (Boundless Adaptability)
 
-- Choosing a **multiple page application (MPA)** takes into consideration the choice to make new content and spot it on new pages. Multi-page applications can incorporate as much data as required, for this situation, numerous riddles, name enrolment page and a scoreboard rank, with no page confinements. To say it necessarily, because there is a fair amount of content and features included on the application, I feel that an **MPA** is the best decision.
+- Choosing a **multiple page application (MPA)** takes into consideration the choice to make new content and spot it on new pages. Multi-page applications can incorporate as much data as required, for this situation, numerous riddles, name enrolment page and a scoreboard rank, with no page confinements. To say it necessarily, because there is a fair amount of content and features included on the application, I feel that an **MPA** is the best decision. :triangular_ruler:
 
 #### Layout Con (Moderate Speed and Execution)
 
-- Being as this is a multi-page application, a server needs to reload most assets, for example, HTML, CSS, and **Python** with each interaction. When loading another page, the browser completely reloads page information and downloads all assets once more, even rehashed segments throughout all pages (for example the header/navigation) which influences Speed and Execution.
+- Being as this is a multi-page application, a server needs to reload most assets, for example, HTML, CSS, and **Python** with each interaction. When loading another page, the browser completely reloads page information and downloads all assets once more, even rehashed segments throughout all pages (for example the header/navigation) which influences Speed and Execution. :straight_ruler:
 
 #### Tablet Display
 
-- Please note, except a slight difference in page/scale responsiveness, desktop applies the same UI.
+- Please note, except a slight difference in page/scale responsiveness, desktop applies the same UI. :pencil2:
 
 <img src="static/images/Tablet-Space-Riddle.gif" width="300">
 
 #### Mobile Display
 
-- This image animation represents the standard UI across most modern mobile devices.
+- This image animation represents the standard UI across most modern mobile devices. :pencil2:
 
 <img src="static/images/Mobile-Space-Riddle.gif" width="300">
 
 #### Additional Note
 
-- Games generally require the users to interact consistently; thus, although the game spreads across multiple separate pages, the developed app is in a way that keeps interaction on the included individual pages dense.
+- Games generally require the users to interact consistently; thus, although the game spreads across multiple separate pages, the developed app is in a way that keeps interaction on the included individual pages dense. :pencil2:
 
 #### Colour Scheme
 
@@ -202,30 +202,30 @@ A placeholder image service provided by [Placeholder.com](https://placeholder.co
 
 - Home Page
 
-  - It is used to access the user registration page field.
+  - It is used to access the user registration page field. :nut_and_bolt:
 
 - User Registration
 
-  - I have utilised to enter player name and progress to game start.
+  - I have utilised to enter player name and progress to game start. :nut_and_bolt:
 
 - JSON
 
-  - Store player high scores for each game play instance and hold the game riddles.
+  - Store player high scores for each game play instance and hold the game riddles. :nut_and_bolt:
 
 - Message Notifications
 
-  - Inform a player of their current score, when errors are made in answer guessing and displaying player's the final score.
+  - Inform a player of their current score, when errors are made in answer guessing and displaying player's the final score. :nut_and_bolt:
 
 - Form
   - Enter player responses to the riddles. :nut_and_bolt:
 
 #### Features Left to Implement
 
-- More riddles, with an arbitrary determination, exhibited each time a player login/registers; thus, enabling them to play the game on different occasions without seeing similar riddles repeatedly.
+- More riddles, with an arbitrary determination, exhibited each time a player login/registers; thus, enabling them to play the game on different occasions without seeing similar riddles repeatedly. :construction:
 
-- Audio sound/effects which would improve increase the user experience.
+- Audio sound/effects which would improve increase the user experience. :construction:
 
-- The alternative to come back to the game with a current player name. Without secure player confirmation, which is beyond the scope of this module, there is currently no way to separate between a returning player and a player who has picked the equivalent player name as another player. Subsequently, players must choose another player name each time they register.
+- The alternative to come back to the game with a current player name. Without secure player confirmation, which is beyond the scope of this module, there is currently no way to separate between a returning player and a player who has picked the equivalent player name as another player. Subsequently, players must choose another player name each time they register. :construction:
 
 - Revealing the correct answers to the riddles at the end of the game would improve the user experience. However, this would work better with a relational database (RDB), which contained a multitude of different riddle question groups. Riddle data would be accessed and reassembled on an automatic and rotational basis on each initiation of the game, so to provide the user with extra variety after being made aware of the correct answers for a particular riddle batch on a previous game effort. :construction:
 
@@ -237,11 +237,11 @@ A placeholder image service provided by [Placeholder.com](https://placeholder.co
 
   - [Freeformatter](https://www.freeformatter.com/)
 
-  - [The W3C Markup Validation Service](https://validator.w3.org/)
+  - [The W3C Markup Validation Service](https://validator.w3.org/) :hammer:
 
 - CSS
 
-  - [The W3C Markup Validation Service](https://jigsaw.w3.org/css-validator)
+  - [The W3C Markup Validation Service](https://jigsaw.w3.org/css-validator) :nut_and_bolt:
 
 - Python
 
@@ -268,7 +268,7 @@ A placeholder image service provided by [Placeholder.com](https://placeholder.co
   - Nexus 6P
   - Nokia 8110 4G
   - Pixel 2
-  - Pixel 2 XL
+  - Pixel 2 XL :white_check_mark:
 
 - Tablets
   - iPad (simulation and actual device)
@@ -277,15 +277,15 @@ A placeholder image service provided by [Placeholder.com](https://placeholder.co
   - iPad Pro (12.9-inch) (simulated and real device)
   - Kindle Fire HDX
   - Nexus 10
-  - Nexus 7
+  - Nexus 7 :white_check_mark:
 
 * Laptops
 
   - MacBook Pro (simulated and real device)
-  - Asus UX 305 (simulation and actual device)
+  - Asus UX 305 (simulation and actual device) :white_check_mark:
 
 * Televisions
-  - 1080p Full HD Television (simulated and real device)
+  - 1080p Full HD Television (simulated and real device) :white_check_mark:
 
 - Website responsiveness was also tested by resizing the window with every addition of a new code sequence. :white_check_mark:
 
@@ -346,7 +346,7 @@ $ git push heroku master
 
 1. Download the project onto a PC and open with a source-code editor.
 
-2. In the run.py file set the IP address and the PORT to the following:
+2. In the run.py file set the IP address and the PORT to the following: :computer:
 
 ```console
 'IP', '127.0.0.1'
@@ -356,19 +356,19 @@ $ git push heroku master
 'PORT', '5000'
 ```
 
-3. Install all of the prerequisites shown in the requirements.txt file via opening a Command-line interface (CLI) and navigating to the project root or by opening an integrated terminal and entering the following command:
+3. Install all of the prerequisites shown in the requirements.txt file via opening a Command-line interface (CLI) and navigating to the project root or by opening an integrated terminal and entering the following command: :computer:
 
 ```console
 pip install -r requirements.txt
 ```
 
-4. Initiate the app by entering the following command into a relevant terminal:
+4. Initiate the app by entering the following command into a relevant terminal: :computer:
 
 ```console
 python run.py
 ```
 
-5. A message in your terminal will inform you that the project is now running with the following message:
+5. A message in your terminal will inform you that the project is now running with the following message: :computer:
 
 ```console
 Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)

@@ -1,4 +1,4 @@
-# SPACE RIDDLE - Guessing Game :space_invader: :rocket: :milky_way: :alien:
+# SPACE RIDDLE - Guessing Game :rocket: :milky_way:
 
 ## Table of Contents
 
@@ -57,7 +57,7 @@ This application (app) is a game that asks players to guess the answer to a **te
 
 #### Goal
 
-Create a multi-player guessing game, suitable for website usage. The core focus of this project is on functional game logic created with **Python** while utilising the **Flask** micro web framework also written in **Python**.
+Create a multi-player guessing game, suitable for website usage. The core focus of this project is on functional game logic created with **Python** while utilising the **Flask** micro web framework also written in **Python**. :video_game:
 
 #### Functionality (User Stories)
 
@@ -134,17 +134,17 @@ A placeholder image service provided by [Placeholder.com](https://placeholder.co
 
 - Colour-overlay – a large background image overlayed with translucent color and text.
 
-  - Body
+  - Body :pencil2:
 
 #### Font
 
-- Being as the website modelling is off a space theme, a square geometric sans-serif typeface choice was selected; thus, helping to emphasise a futuristic and sci-fi vibe to the displayed text content; a subjective opinion, of course.
+- Being as the website modelling is off a space theme, a square geometric sans-serif typeface choice was selected; thus, helping to emphasise a futuristic and sci-fi vibe to the displayed text content; a subjective opinion, of course. :pencil2:
 
 #### Navigation
 
-- Fixed navigation makes it easier for users to browse the website and increase retention: In some ways, it's a passive call to action; always visible, always available.
+- Fixed navigation makes it easier for users to browse the website and increase retention: In some ways, it's a passive call to action; always visible, always available. :straight_ruler:
 
-- Maintaining the logo visible increases brand value. Today there is an enormous number of apps, many with identical or similar features, so I feel that it’s vital to make a good impact on users and retain their interest, which can be all linked to a good brand image.
+- Maintaining the logo visible increases brand value. Today there is an enormous number of apps, many with identical or similar features, so I feel that it’s vital to make a good impact on users and retain their interest, which can be all linked to a good brand image. :triangular_ruler:
 
 [**To top**](#Table-of-Contents)
 
@@ -184,7 +184,7 @@ A placeholder image service provided by [Placeholder.com](https://placeholder.co
 
   - Saira font applied across the entire website
 
-- [Font Awesome](https://fontawesome.com/ "Fontawesome Official Site")
+- [Font Awesome](https://fontawesome.com/ "Fontawesome Official Site") :nut_and_bolt:
 
   - Source for all utilised icons
 
@@ -192,7 +192,7 @@ A placeholder image service provided by [Placeholder.com](https://placeholder.co
 
 - [w3schools](https://www.w3schools.com/)
 - [Stack Overflow](https://stackoverflow.com/)
-- [Slack](https://slack.com/)
+- [Slack](https://slack.com/) :hammer:
 
 [**To top**](#Table-of-Contents)
 
@@ -202,11 +202,11 @@ A placeholder image service provided by [Placeholder.com](https://placeholder.co
 
 - Home Page
 
-  - It is used to access the user registration page field. :nut_and_bolt:
+  - It is used to access the user registration page field.
 
 - User Registration
 
-  - I have utilised to enter player name and progress to game start. :nut_and_bolt:
+  - I have utilised to enter player name and progress to game start.
 
 - JSON
 
@@ -214,18 +214,18 @@ A placeholder image service provided by [Placeholder.com](https://placeholder.co
 
 - Message Notifications
 
-  - Inform a player of their current score, when errors are made in answer guessing and displaying player's the final score. :nut_and_bolt:
+  - Inform a player of their current score, when errors are made in answer guessing and displaying player's the final score.
 
 - Form
-  - Enter player responses to the riddles. :nut_and_bolt:
+  - Enter player responses to the riddles.
 
 #### Features Left to Implement
 
-- More riddles, with an arbitrary determination, exhibited each time a player login/registers; thus, enabling them to play the game on different occasions without seeing similar riddles repeatedly. :construction:
+- More riddles, with an arbitrary determination, exhibited each time a player login/registers; thus, enabling them to play the game on different occasions without seeing similar riddles repeatedly.
 
-- Audio sound/effects which would improve increase the user experience. :construction:
+- Audio sound/effects which would improve increase the user experience.
 
-- The alternative to come back to the game with a current player name. Without secure player confirmation, which is beyond the scope of this module, there is currently no way to separate between a returning player and a player who has picked the equivalent player name as another player. Subsequently, players must choose another player name each time they register. :construction:
+- The alternative to come back to the game with a current player name. Without secure player confirmation, which is beyond the scope of this module, there is currently no way to separate between a returning player and a player who has picked the equivalent player name as another player. Subsequently, players must choose another player name each time they register.
 
 - Revealing the correct answers to the riddles at the end of the game would improve the user experience. However, this would work better with a relational database (RDB), which contained a multitude of different riddle question groups. Riddle data would be accessed and reassembled on an automatic and rotational basis on each initiation of the game, so to provide the user with extra variety after being made aware of the correct answers for a particular riddle batch on a previous game effort. :construction:
 
@@ -237,15 +237,15 @@ A placeholder image service provided by [Placeholder.com](https://placeholder.co
 
   - [Freeformatter](https://www.freeformatter.com/)
 
-  - [The W3C Markup Validation Service](https://validator.w3.org/) :hammer:
+  - [The W3C Markup Validation Service](https://validator.w3.org/)
 
 - CSS
 
-  - [The W3C Markup Validation Service](https://jigsaw.w3.org/css-validator) :nut_and_bolt:
+  - [The W3C Markup Validation Service](https://jigsaw.w3.org/css-validator)
 
 - Python
 
-  - [Python Formatter](https://pythoniter.appspot.com/) :nut_and_bolt:
+  - [Python Formatter](https://pythoniter.appspot.com/) :hammer:
 
 #### Additional Points
 
@@ -268,7 +268,7 @@ A placeholder image service provided by [Placeholder.com](https://placeholder.co
   - Nexus 6P
   - Nokia 8110 4G
   - Pixel 2
-  - Pixel 2 XL :white_check_mark:
+  - Pixel 2 XL
 
 - Tablets
   - iPad (simulation and actual device)
@@ -277,15 +277,15 @@ A placeholder image service provided by [Placeholder.com](https://placeholder.co
   - iPad Pro (12.9-inch) (simulated and real device)
   - Kindle Fire HDX
   - Nexus 10
-  - Nexus 7 :white_check_mark:
+  - Nexus 7
 
 * Laptops
 
   - MacBook Pro (simulated and real device)
-  - Asus UX 305 (simulation and actual device) :white_check_mark:
+  - Asus UX 305 (simulation and actual device)
 
 * Televisions
-  - 1080p Full HD Television (simulated and real device) :white_check_mark:
+  - 1080p Full HD Television (simulated and real device)
 
 - Website responsiveness was also tested by resizing the window with every addition of a new code sequence. :white_check_mark:
 

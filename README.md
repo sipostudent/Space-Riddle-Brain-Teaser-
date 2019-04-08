@@ -229,6 +229,8 @@ A placeholder image service provided by [Placeholder.com](https://placeholder.co
 
 - Revealing the correct answers to the riddles at the end of the game would improve the user experience. However, this would work better with a relational database (RDB), which contained a multitude of different riddle question groups. Riddle data would be accessed and reassembled on an automatic and rotational basis on each initiation of the game, so to provide the user with extra variety after being made aware of the correct answers for a particular riddle batch on a previous game effort. :construction:
 
+- The implementation of riddles which match the actual UI/UX theme, that being space.
+
 ## Testing
 
 #### Tools and Methods Used for Testing

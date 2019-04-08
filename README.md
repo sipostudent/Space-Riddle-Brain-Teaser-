@@ -319,26 +319,23 @@ Manual testing was embraced for this application and acceptably passed. An examp
 
 #### How the project got deployed to Heroku
 
-1. Go to Heroku Website
-2. Select Application (YOURAPPNAME)
-3. In the ‘Deployment Method’ section, check to see if the application already connected to GitHub. If not connected then click the relevant button to link the Heroku website to the dashboard.
-4. In the ‘Automatic Deployment’ section enable ‘Automatic Deploys’ (optional).
-5. In the ‘Manual Deploy’ section, set the branch to ‘master’ then click ‘Deploy Branch.’ :satellite:
+1. Go to [Heroku](https://dashboard.heroku.com/) website.
+2. Select application (YOURAPPNAME)
+3. In the **Deployment Method** section, check to see if the application is already connected to GitHub. If not connected then click the relevant button to link the Heroku website to the dashboard.
+4. In the **Automatic Deployment** section enable **Automatic Deploys** (optional).
+5. In the **Manual Deploy** section, set the branch to **master** then click **Deploy Branch.** :satellite:
 
-#### How to clone the application
+#### Cloning the repository
+
+1. Open Git Bash
+2. Change the present working directory to the area where you wish to place the cloned directory.
+3. Clone the repository or use the link below.
 
 ```console
-$ heroku git:clone -a space-riddle-game
-$ cd space-riddle-game
+git clone https://github.com/sipostudent/Milestone-Project-3
 ```
 
 Deploy your changes, make some changes to the code you just cloned and deploy them to Heroku using Git. :octocat:
-
-```console
-$ git add .
-$ git commit -am "make it better"
-$ git push heroku master
-```
 
 #### How to access the live application
 
